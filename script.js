@@ -10,17 +10,17 @@ ul.addEventListener("click", function (e) {
     .querySelector(`.par-${clicked.dataset.par}`)
     .classList.remove("hidden");
 });
-// const arr1 = document.querySelector(".arr-1");
-// const arr2 = document.querySelector(".arr-2");
-// const arr3 = document.querySelector(".arr-3");
-// const arr4 = document.querySelector(".arr-4");
-// const arr5 = document.querySelector(".arr-5");
-// const arr = document.querySelectorAll(".arrow");
-// const par1 = document.querySelector(".par-1");
-// const par2 = document.querySelector(".par-2");
-// const par3 = document.querySelector(".par-3");
-// const par4 = document.querySelector(".par-4");
-// const par5 = document.querySelector(".par-5");
+const arr1 = document.querySelector(".arr-1");
+const arr2 = document.querySelector(".arr-2");
+const arr3 = document.querySelector(".arr-3");
+const arr4 = document.querySelector(".arr-4");
+const arr5 = document.querySelector(".arr-5");
+const arr = document.querySelectorAll(".arrow");
+const par1 = document.querySelector(".par-1");
+const par2 = document.querySelector(".par-2");
+const par3 = document.querySelector(".par-3");
+const par4 = document.querySelector(".par-4");
+const par5 = document.querySelector(".par-5");
 
 /*
 arr1.addEventListener("click", function () {
